@@ -15,7 +15,7 @@ soc_without_ind AS (
     GROUP BY s.NUMSOC
 )
 
-SELECT COUNT(DISTINCT NUMSOC)
+SELECT COUNT(DISTINCT p.NUMSOC)
 FROM filtered_prod as p
-    RIGHT JOIN soc_without_ind as soc_i ON p.NUMSOC = soc_i.NUMSOC
+    INNER JOIN soc_without_ind as soc_i ON p.NUMSOC = soc_i.NUMSOC
 WHERE soc_i.nb_indiv = 0;
