@@ -1,6 +1,6 @@
 # Coding Game — Exercices SQL
 
-Exercices SQL réalisés dans le cadre d'un entretien technique (Coding Game / John Paul).  
+Exercices SQL réalisés dans le cadre d'un entretien technique.  
 Les données sont **factices** et ont été générées uniquement pour tester les requêtes.
 
 ## Objectif
